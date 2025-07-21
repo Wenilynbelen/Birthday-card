@@ -8,12 +8,17 @@ body {
     margin: 0;
 }
 
-.container {
-    text-align: center;
-    background-color: #fff;
+.card {
+    background-image: url(back.gif);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+}
+
+.card-content {
+    padding: 20px;
 }
 
 h1 {
@@ -24,9 +29,21 @@ h1 {
 
 p {
     font-size: 18px;
-    color: #666;
+    color: green;
+    margin-bottom: 20px;
 }
-    
-  line-height: 120px;
+
+.cake-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.oko {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
